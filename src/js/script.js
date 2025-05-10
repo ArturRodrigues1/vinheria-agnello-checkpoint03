@@ -16,3 +16,9 @@ function validarEntrada(mensagem) {
     } while (entrada === null || entrada.trim() === "");
     return entrada;
 }
+
+function estoqueBaixo(quantidade) {
+    return quantidade < 5;
+}
+
+
