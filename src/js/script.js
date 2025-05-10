@@ -39,3 +39,46 @@ let nomeSafraMaisAntiga = "";
 
 let continuar = true;
 
+while (continuar && contador < 10) {
+    contador++;
+
+    nomeVinho = validarEntrada("Digite o nome do vinho:");
+    tipoVinho = validarEntrada("Digite o tipo do vinho:");
+    safraVinho = parseInt(validarEntrada("Digite o ano da safra:"));
+    let quantidade = parseInt(validarEntrada("Digite a quantidade em estoque:"));
+
+    let classificacao = classificarVinho(safraVinho);
+    let alerta = estoqueBaixo(quantidade);
+
+    mostrarDados(nomeVinho, tipoVinho, safraVinho, quantidade, classificacao, alerta);
+
+    if (alerta) estoqueBaixoTotal++;
+    if (safraVinho < safraMaisAntiga) {
+    safraMaisAntiga = safraVinho;
+    nomeSafraMaisAntiga = nomeVinho;
+    }
+
+    if (contador === 1) {
+    nome1 = nomeVinho; tipo1 = tipoVinho; safra1 = safraVinho; quant1 = quantidade;
+    } else if (contador === 2) {
+    nome2 = nomeVinho; tipo2 = tipoVinho; safra2 = safraVinho; quant2 = quantidade;
+    } else if (contador === 3) {
+    nome3 = nomeVinho; tipo3 = tipoVinho; safra3 = safraVinho; quant3 = quantidade;
+    } else if (contador === 4) {
+    nome4 = nomeVinho; tipo4 = tipoVinho; safra4 = safraVinho; quant4 = quantidade;
+    } else if (contador === 5) {
+    nome5 = nomeVinho; tipo5 = tipoVinho; safra5 = safraVinho; quant5 = quantidade;
+    } else if (contador === 6) {
+    nome6 = nomeVinho; tipo6 = tipoVinho; safra6 = safraVinho; quant6 = quantidade;
+    } else if (contador === 7) {
+    nome7 = nomeVinho; tipo7 = tipoVinho; safra7 = safraVinho; quant7 = quantidade;
+    } else if (contador === 8) {
+    nome8 = nomeVinho; tipo8 = tipoVinho; safra8 = safraVinho; quant8 = quantidade;
+    } else if (contador === 9) {
+    nome9 = nomeVinho; tipo9 = tipoVinho; safra9 = safraVinho; quant9 = quantidade;
+    } else if (contador === 10) {
+    nome10 = nomeVinho; tipo10 = tipoVinho; safra10 = safraVinho; quant10 = quantidade;
+    }
+
+    continuar = confirm("Deseja cadastrar outro vinho?");
+}
