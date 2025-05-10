@@ -21,4 +21,10 @@ function estoqueBaixo(quantidade) {
     return quantidade < 5;
 }
 
+function classificarVinho(safra) {
+    if (safra >= 2020) return "Jovem";
+    if (safra >= 2015) return "Amadurecido";
+    return "Antigo";
+}
+
 
