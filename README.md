@@ -9,4 +9,4 @@ Equipe:
     - Kaike Correa de Sousa - RM 561623
     - Marcielle Janguas Pina Carvalho - RM 561505
 
-Link - GitHub Pages: 
+Link - GitHub Pages: https://kaike-sousa.github.io/vinheria-agnello-checkpoint02/
