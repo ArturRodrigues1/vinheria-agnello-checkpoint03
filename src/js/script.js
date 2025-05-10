@@ -27,4 +27,15 @@ function classificarVinho(safra) {
     return "Antigo";
 }
 
+var contador = 0;
+
+var nomeVinho;
+var tipoVinho;
+var safraVinho;
+
+let estoqueBaixoTotal = 0;
+let safraMaisAntiga = 9999;
+let nomeSafraMaisAntiga = "";
+
+let continuar = true;
 
