@@ -91,3 +91,8 @@ function mostrarDados(nome, tipo, safra, quantidade, classificacao, alerta) {
     console.log("Classificação: " + classificacao);
     if (alerta) alert("Estoque baixo para: " + nome);
 }
+alert("Cadastro finalizado!\n" +
+    "Total de vinhos cadastrados: " + contador + "\n" +
+    "Vinhos com estoque baixo: " + estoqueBaixoTotal + "\n" +
+    "Safra mais antiga: " + safraMaisAntiga + " (" + nomeSafraMaisAntiga + ")"  + "\n" +
+    "Veja as informações no console.");
