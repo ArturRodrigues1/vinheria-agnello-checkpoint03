@@ -82,3 +82,12 @@ while (continuar && contador < 10) {
 
     continuar = confirm("Deseja cadastrar outro vinho?");
 }
+function mostrarDados(nome, tipo, safra, quantidade, classificacao, alerta) {
+    console.log("---------DETALHES----------");
+    console.log("Nome: " + nome);
+    console.log("Tipo: " + tipo);
+    console.log("Safra: " + safra);
+    console.log("Quantidade: " + quantidade);
+    console.log("Classificação: " + classificacao);
+    if (alerta) alert("Estoque baixo para: " + nome);
+}
