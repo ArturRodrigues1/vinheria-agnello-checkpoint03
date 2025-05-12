@@ -9,11 +9,11 @@ let nome8, tipo8, safra8, quant8;
 let nome9, tipo9, safra9, quant9;
 let nome10, tipo10, safra10, quant10;
 
-var contador = 0;
+let contador = 0;
 
-var nomeVinho;
-var tipoVinho;
-var safraVinho;
+let nomeVinho;
+let tipoVinho;
+let safraVinho;
 
 let estoqueBaixoTotal = 0;
 let safraMaisAntiga = 9999;
