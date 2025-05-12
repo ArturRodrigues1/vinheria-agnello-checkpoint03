@@ -1,3 +1,31 @@
+function mostrarDados(nome, tipo, safra, quantidade, classificacao, alerta) {
+    console.log("---------DETALHES----------");
+    console.log("Nome: " + nome);
+    console.log("Tipo: " + tipo);
+    console.log("Safra: " + safra);
+    console.log("Quantidade: " + quantidade);
+    console.log("Classificação: " + classificacao);
+    if (alerta) alert("Estoque baixo para: " + nome);
+}
+
+function validarEntrada(mensagem) {
+    let entrada;
+    do {
+        entrada = prompt(mensagem);
+    } while (entrada === null || entrada.trim() === "");
+    return entrada;
+}
+
+function estoqueBaixo(quantidade) {
+    return quantidade < 5;
+}
+
+function classificarVinho(safra) {
+    if (safra >= 2020) return "Jovem";
+    if (safra >= 2015) return "Amadurecido";
+    return "Antigo";
+}
+
 let nome1, tipo1, safra1, quant1;
 let nome2, tipo2, safra2, quant2;
 let nome3, tipo3, safra3, quant3;
@@ -70,31 +98,3 @@ alert("Cadastro finalizado!\n" +
     "Vinhos com estoque baixo: " + estoqueBaixoTotal + "\n" +
     "Safra mais antiga: " + safraMaisAntiga + " (" + nomeSafraMaisAntiga + ")" + "\n" +
     "Veja as informações no console.");
-
-function mostrarDados(nome, tipo, safra, quantidade, classificacao, alerta) {
-    console.log("---------DETALHES----------");
-    console.log("Nome: " + nome);
-    console.log("Tipo: " + tipo);
-    console.log("Safra: " + safra);
-    console.log("Quantidade: " + quantidade);
-    console.log("Classificação: " + classificacao);
-    if (alerta) alert("Estoque baixo para: " + nome);
-}
-
-function validarEntrada(mensagem) {
-    let entrada;
-    do {
-        entrada = prompt(mensagem);
-    } while (entrada === null || entrada.trim() === "");
-    return entrada;
-}
-
-function estoqueBaixo(quantidade) {
-    return quantidade < 5;
-}
-
-function classificarVinho(safra) {
-    if (safra >= 2020) return "Jovem";
-    if (safra >= 2015) return "Amadurecido";
-    return "Antigo";
-}
