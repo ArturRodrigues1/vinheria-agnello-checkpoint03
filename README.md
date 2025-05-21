@@ -19,4 +19,4 @@ Checkpoint 3 de Desenvolvimento Web - Vinheria Agnello
 Nome:       - Artur Rodrigues Trindade Paes - 564309
 
 
-Link - GitHub Pages: https://github.com/ArturRodrigues1/vinheria-agnello-checkpoint03.git
+Link - GitHub Pages: https://arturrodrigues1.github.io/vinheria-agnello-checkpoint03/
