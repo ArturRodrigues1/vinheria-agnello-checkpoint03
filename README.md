@@ -1,12 +1,22 @@
-# vinheria-agnello-checkpoint02
-Checkpoint 2 de Desenvolvimento Web - Vinharia Agnello
+# vinheria-agnello-checkpoint03
+Checkpoint 3 de Desenvolvimento Web - Vinheria Agnello
 
-Descrição do projeto: Implementação de atualição com aprimoramento do cadastro de maior quantidade de vinhos em sequência, indicação precisa de quantidade de garrafas em estoque, com sinalização de estoque baixo.
+# Conceitos: 
+- Manipulação de objetos e arrays
+- Uso de funções de alta ordem (`map`, `filter`, `reduce`, `forEach`)
+- Organização do código com funções reutilizáveis
+- Exibição de dados via `console.log()` e `alert()`
 
-Equipe:
-    - Artur Rodrigues Trindade Paes - 564309
-    - Gabriel Silva Novais - RM 566370
-    - Kaike Correa de Sousa - RM 561623
-    - Marcielle Janguas Pina Carvalho - RM 561505
+# Funcionalidades implementadas: 
 
-Link - GitHub Pages: https://kaike-sousa.github.io/vinheria-agnello-checkpoint02/
+- Adição de novos vinhos ao sistema
+- Listagem completa de vinhos usando `forEach`
+- Filtro de vinhos com estoque baixo (estoque < 5) com `filter`
+- Cálculo do estoque total da vinícola com `reduce`
+- Exibição dos nomes dos vinhos em caixa alta com `map`
+
+
+Nome:       - Artur Rodrigues Trindade Paes - 564309
+
+
+Link - GitHub Pages: https://github.com/ArturRodrigues1/vinheria-agnello-checkpoint03.git
