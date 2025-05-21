@@ -66,4 +66,5 @@ function exibirResumo() {
 // Executar resumo
 exibirResumo();
 
+// Alert
 alert("Resumo exibido no console. Inspecione para visualizar os dados.");
